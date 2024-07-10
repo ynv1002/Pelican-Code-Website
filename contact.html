@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Pelican Code</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Contact Us</h1>
+        </div>
+    </header>
+    <nav class="navbar">
+        <div class="container">
+            <ul id="main-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="membership.html">Membership</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section id="contact-form" class="section">
+            <div class="container">
+                <h2>Contact Form</h2>
+                <form action="#" method="post">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section id="email" class="section">
+            <div class="container">
+                <h2>Email Address</h2>
+                <p>You can also reach us via email at <a href="mailto:contact@pelicancode.com">contact@pelicancode.com</a></p>
+            </div>
+        </section>
+        <section id="social-media" class="section">
+            <div class="container">
+                <h2>Social Media Links</h2>
+                <ul class="social-media">
+                    <li><a href="https://twitter.com/pelicancode" target="_blank">Twitter</a></li>
+                    <li><a href="https://facebook.com/pelicancode" target="_blank">Facebook</a></li>
+                    <li><a href="https://linkedin.com/company/pelicancode" target="_blank">LinkedIn</a></li>
+                </ul>
+            </div>
+        </section>
+        <section id="location" class="section">
+            <div class="container">
+                <h2>Location</h2>
+                <p>Our meetings take place at Tulane University. Here is a map to help you find us:</p>
+                <!-- Embed a Google Map -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.070116507442!2d-90.12349738449239!3d29.940781631930667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a5b6e2e96f33%3A0x68b17b6f2b5c8b9e!2sTulane%20University!5e0!3m2!1sen!2sus!4v1626821285498!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Pelican Code</p>
+            <ul class="social-media">
+                <li><a href="https://twitter.com/pelicancode" target="_blank">Twitter</a></li>
+                <li><a href="https://facebook.com/pelicancode" target="_blank">Facebook</a></li>
+                <li><a href="https://linkedin.com/company/pelicancode" target="_blank">LinkedIn</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

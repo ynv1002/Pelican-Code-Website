@@ -1,0 +1,21 @@
+pelican_code_website/
+│
+├── index.html
+├── about.html
+├── events.html
+├── projects.html
+├── resources.html
+├── membership.html
+├── blog.html
+├── gallery.html
+├── contact.html
+├── faqs.html
+│
+├── css/
+│   └── styles.css
+│
+├── js/
+│   └── scripts.js
+│
+└── images/
+    └── (place your images here)
